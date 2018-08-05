@@ -1,22 +1,30 @@
-import "variables";
+/*import "variables";
 import "mixins";
 import "normalize";
 import "layout";
 import "components/form_field";
 import "section/registration_form";
-import "pages/registration";
+import "pages/registration";*/
 
-.sidenav a {
+.sidenav_main {
+  > a {
 	display: block;
 	margin-top: 30px;
 	font-size: 14px;
-  	font-family: "Roboto";
-  	color: rgb(255, 255, 255);
-  	text-align: left;
+	font-family: "Roboto";
+	color: rgb(255, 255, 255);
+	text-align: left;
 }
+  > img {
+ 	display: block;
+	color: #D3D3D3;
+  }
+}
+
 .container {
 	max-width: 1300px;
 }
+
 .sidenav {
 	position: fixed;
 	background-color: black;
