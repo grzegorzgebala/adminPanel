@@ -1,10 +1,8 @@
-/*import "variables";
-import "mixins";
-import "normalize";
-import "layout";
-import "components/form_field";
-import "section/registration_form";
-import "pages/registration";*/
+
+@import 'normalize';
+@import "variables";
+@import "mixins";
+@import "layout";
 
 .sidenav_main {
   > a {
@@ -15,9 +13,10 @@ import "pages/registration";*/
 	color: rgb(255, 255, 255);
 	text-align: left;
 }
-  > img {
+
+img {
  	display: block;
-	color: #D3D3D3;
+	fill: #fff;
   }
 }
 
