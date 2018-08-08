@@ -1,0 +1,46 @@
+.sidenav_main {
+  > a {
+	display: block;
+	margin-top: 30px;
+	font-size: 14px;
+	font-family: "Roboto";
+	color: rgb(255, 255, 255);
+	text-align: left;
+}
+
+img {
+ 	display: block;
+	fill: #fff;
+  }
+}
+
+.container {
+	max-width: 1300px;
+}
+
+.sidenav {
+	position: fixed;
+	background-color: black;
+	width: 188px;
+	height: 100%;
+}
+
+.logo {
+  family-font: 'Crisp';
+  position: absolute;
+  height: 16px;
+}
+
+.topnav a {
+	display: inline-block;
+	float: right;
+	height: 60px;
+}
+
+.menu {
+	width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+    margin-left: 80px;
+}
