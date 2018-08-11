@@ -18,30 +18,38 @@ ul {
 
 .sidenav_main {
 	li {
-	display: inline-block;
-	font-size: 14px;
-	width: 100%;
-	height: 40px;
+		display: inline-block;
+		font-size: 14px;
+		width: 100%;
+		height: 40px;
 	}
 
 	li:before {
-	background: #f58220;
-    content: "";
-    display: block;
-    height: 40px;
-    left: 0;
-    width: 4px;
+		background: #f58220;
+    	content: "";
+    	display: inline-block;
+    	height: 40px;
+    	left: 0;
+    	width: 4px;
+    	display: none;
 	}
+
 	ul {
 		padding: 0;
 		text-align: left;
 	}
+
 	a {
 		padding: 10px 25px;
-		display: block;
+		display: inline-block;
 		color: rgb(129, 129, 129);
 		text-decoration: none;
 	}
+	
+	li:active:before {
+		display: inline-block;
+	}
+
 	li:hover {
 		background: #333;
 	}
