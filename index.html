@@ -4,17 +4,17 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:700i" rel="stylesheet">
 		<title>Admin Panel</title>
 	</head>
 	<body>
-		<header>
-			<div class="container">
+		<div class="container">
+			`<header>
 				<div class="sidenav">
 				  	<div class="sidenav_header">
 					  	<div class="logo">Just do it</div>
-					  	<div class="menu"></div>
-						<div class="menu"></div>
-						<div class="menu"></div>
+					  	<i class="fas fa-bars"></i>
 					</div>
 					<div class="sidenav_main">
 					  	<ul>
@@ -45,21 +45,35 @@
 				  </div>
 				</div>
 				<div class="topnav">
-				  	<a class="active" href="#home">Home</a>
-				  	<a href="#news">News</a>
-				  	<a href="#contact">Contact</a>
-				  	<a href="#about">About</a>
+				  	<ul class="topnav_list">
+				  		<li class="money">
+					  		<img class="icon-top" src="images/wallet.svg" alt="wallet icon">
+					  		<div>$1500</div>
+					  		<img class="icon-top" src="images/arrow-down.svg" alt="arrow-down icon">
+					  	</li>
+						<li class="alert">
+					  		<img class="icon-top" src="images/notification.svg" alt="notification icon">
+					  	</li>
+						<li class="person">
+					  		<img class="icon-top" src="images/profile.svg" alt="profile icon">
+					  		<div>Johny Bravo</div>
+					  	</li>
+						<li class="quit">
+					  		<img class="icon-top" src="images/quit.svg" alt="quit icon">
+					  	</li>
+				  	</ul>
 				</div>
-			</div>
-		</header>
-		<main>
-			<section>General</section>
-			<section>Details</section>
-			<section>Links</section>
-			<section>Banners</section>
-			<section>Personal data</section>
-			<section>Payout</section>
-			<section>Postback</section>
-		</main>
+			</header>
+		
+			<main>
+				<section>General</section>
+				<section>Details</section>
+				<section>Links</section>
+				<section>Banners</section>
+				<section>Personal data</section>
+				<section>Payout</section>
+				<section>Postback</section>
+			</main>
+		</div>
 	</body>	
 </html>		

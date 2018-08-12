@@ -104,6 +104,12 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .row:before,
 .row:after {
   content: " ";
@@ -112,10 +118,6 @@
 
 .row:after {
   clear: both;
-}
-
-ul {
-  font-size: 0;
 }
 
 .sidenav_main li {
@@ -143,7 +145,7 @@ ul {
 .sidenav_main a {
   padding: 10px 25px;
   display: inline-block;
-  color: #818181;
+  color: #9a9a9a;
   text-decoration: none;
 }
 
@@ -155,6 +157,64 @@ ul {
   background: #333;
 }
 
+.topnav {
+  height: 60px;
+  border-bottom: 1px solid #e3e3e3;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.topnav li {
+  font-size: 14px;
+  height: 60px;
+  border-left: 1px solid #e3e3e3;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 0 12px;
+  right: 0;
+  top: 0;
+}
+
+.topnav .money {
+  width: 160px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.topnav .person {
+  width: 160px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.topnav .alert {
+  width: 60px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.topnav .quit {
+  width: 60px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.topnav ul {
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .icon {
   display: inline-block;
   height: 14px;
@@ -163,8 +223,11 @@ ul {
   margin-right: 15px;
 }
 
-.container {
-  max-width: 1300px;
+.icon-top {
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .sidenav {
@@ -175,22 +238,25 @@ ul {
 }
 
 .logo {
-  family-font: 'Crisp';
-  position: absolute;
+  font-family: 'Roboto';
+  position: relative;
+  display: block;
+  float: left;
   height: 16px;
+  color: white;
+  font-size: 24px;
 }
 
-.topnav a {
-  display: inline-block;
+.fas {
+  color: #9a9a9a;
+  display: block;
   float: right;
-  height: 60px;
+  font-size: 24px;
 }
 
-.menu {
-  width: 35px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
-  margin-left: 80px;
+.sidenav_header {
+  margin: 10px 10px;
+  height: 60px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.prefixed.css.map */

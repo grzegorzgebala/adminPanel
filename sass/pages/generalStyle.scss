@@ -2,6 +2,12 @@
 	box-sizing: border-box;
 }
 
+.container {
+	max-width: 1300px;
+	width: 100%;
+	margin: 0 auto;
+}
+
 .row:before,
 .row:after {
     content: " "; 
@@ -10,10 +16,6 @@
 
 .row:after {
     clear: both;
-}
-
-ul {
-	font-size: 0;
 }
 
 .sidenav_main {
@@ -42,7 +44,7 @@ ul {
 	a {
 		padding: 10px 25px;
 		display: inline-block;
-		color: rgb(129, 129, 129);
+		color: $menu-color;
 		text-decoration: none;
 	}
 	
@@ -55,6 +57,52 @@ ul {
 	}
 }
 
+.topnav {
+	height: 60px;
+	border-bottom: 1px solid $line-color;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+
+	li {
+		font-size: 14px;
+		height: 60px;
+		border-left: 1px solid $line-color;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		padding: 0 12px;
+		right: 0;
+		top: 0;
+	}
+
+	.money {
+		width: 160px;
+		display: flex;
+	} 
+
+	.person {
+		width: 160px;
+		display: flex;
+	}
+
+	.alert {
+		width: 60px;
+		display: flex;
+	}
+
+	.quit {
+		width: 60px;
+		display: flex;
+	}
+
+	ul {
+		display: flex;
+	}
+}
+
 .icon {
  	display: inline-block;
 	height: 14px;
@@ -63,8 +111,11 @@ ul {
 	margin-right: 15px;
  }
 
-.container {
-	max-width: 1300px;
+.icon-top {
+	height: 20px;
+	width: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .sidenav {
@@ -75,21 +126,24 @@ ul {
 }
 
 .logo {
-  family-font: 'Crisp';
-  position: absolute;
-  height: 16px;
+	font-family: 'Roboto';
+	position: relative;
+	display: block;
+	float: left;
+	height: 16px;
+	color: white;
+	font-size: 24px;
 }
 
-.topnav a {
-	display: inline-block;
+.fas {
+	color: $menu-color;
+	display: block;
 	float: right;
-	height: 60px;
+	font-size: 24px;
 }
 
-.menu {
-	width: 35px;
-    height: 5px;
-    background-color: rgb(255, 255, 255);
-    margin: 6px 0;
-    margin-left: 80px;
+.sidenav_header {
+	margin: 10px 10px;
+	height: 60px;
+	text-align: center;
 }

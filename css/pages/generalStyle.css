@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .row:before,
 .row:after {
   content: " ";
@@ -10,10 +16,6 @@
 
 .row:after {
   clear: both;
-}
-
-ul {
-  font-size: 0;
 }
 
 .sidenav_main li {
@@ -53,16 +55,51 @@ ul {
   background: #333;
 }
 
+.topnav {
+  height: 60px;
+  border-bottom: 1px solid grey;
+}
+
+.topnav li {
+  display: inline-block;
+  font-size: 14px;
+  height: 60px;
+  border-left: 1px solid grey;
+}
+
+.topnav .money {
+  width: 160px;
+}
+
+.topnav .person {
+  width: 160px;
+}
+
+.topnav .alert {
+  width: 60px;
+}
+
+.topnav .quit {
+  width: 60px;
+}
+
+.topnav ul {
+  text-align: right;
+}
+
+.topnav a {
+  padding: 10px 25px;
+  display: block;
+  color: #818181;
+  text-decoration: none;
+}
+
 .icon {
   display: inline-block;
   height: 14px;
   width: 14px;
   position: relative;
   margin-right: 15px;
-}
-
-.container {
-  max-width: 1300px;
 }
 
 .sidenav {
@@ -73,23 +110,24 @@ ul {
 }
 
 .logo {
-  family-font: 'Crisp';
-  position: absolute;
+  font-family: 'Roboto';
+  position: relative;
+  display: block;
+  float: left;
   height: 16px;
+  color: white;
+  font-size: 24px;
 }
 
-.topnav a {
-  display: inline-block;
+.fas {
+  color: white;
+  display: block;
   float: right;
-  height: 60px;
+  font-size: 24px;
 }
 
-.menu {
-  width: 35px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
-  margin-left: 80px;
+.sidenav_header {
+  margin: 10px 10px;
 }
 
 /*# sourceMappingURL=generalStyle.css.map */
