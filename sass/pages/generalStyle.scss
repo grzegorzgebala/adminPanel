@@ -6,6 +6,7 @@
 	max-width: 1300px;
 	width: 100%;
 	margin: 0 auto;
+	border: 1px solid $line-color;
 }
 
 .row:before,
@@ -114,8 +115,20 @@
 .icon-top {
 	height: 20px;
 	width: 20px;
-	margin-left: 5px;
+}
+
+.topnav_money {
+	font-size: 20px;
 	margin-right: 5px;
+	margin-left: 5px;
+	color: $menu-color;
+}
+
+.topnav_person {
+	font-size: 14px;
+	margin-right: 5px;
+	margin-left: 5px;
+	color: $person-color;
 }
 
 .sidenav {
@@ -127,23 +140,63 @@
 
 .logo {
 	font-family: 'Roboto';
-	position: relative;
-	display: block;
-	float: left;
-	height: 16px;
 	color: white;
 	font-size: 24px;
 }
 
 .fas {
 	color: $menu-color;
-	display: block;
-	float: right;
+	margin-left: 15px;
 	font-size: 24px;
 }
 
 .sidenav_header {
-	margin: 10px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 	height: 60px;
 	text-align: center;
 }
+
+.general_content_frame {
+	background-color: #f5f5f5;
+	width: calc(100% - 188px);
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.general_content {
+	background-color: #fff;
+	width: 100%;
+	margin: 10px;
+	border: 1px solid $line-color;
+	display: flex;
+	justify-content: flox-start;
+	font-size: 16px;
+	color: $menu-color;
+	box-shadow: 0 0 15px 0 rgba(0,0,0,.125);
+}
+
+.general-time {
+	background-color: #fff;
+	width: 100%;
+	border: 1px solid $line-color;
+	display: flex;
+	justify-content: center;
+	color: $menu-color;
+}
+
+
+
+
+
+
+
+
+
+
+
