@@ -279,6 +279,7 @@
   font-size: 16px;
   color: #9a9a9a;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.125);
+  flex-direction: column;
 }
 
 .general-time {
@@ -288,6 +289,10 @@
   display: flex;
   justify-content: center;
   color: #9a9a9a;
+}
+
+.general_header {
+  border-bottom: 1px solid #e3e3e3;
 }
 
 /*# sourceMappingURL=style.css.map */

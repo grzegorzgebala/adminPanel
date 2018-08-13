@@ -179,6 +179,7 @@
 	font-size: 16px;
 	color: $menu-color;
 	box-shadow: 0 0 15px 0 rgba(0,0,0,.125);
+	flex-direction: column;
 }
 
 .general-time {
@@ -190,6 +191,9 @@
 	color: $menu-color;
 }
 
+.general_header {
+	border-bottom: 1px solid $line-color;
+}
 
 
 
