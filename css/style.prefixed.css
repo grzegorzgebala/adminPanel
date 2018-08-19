@@ -502,6 +502,7 @@ input {
 .chart {
   width: 60%;
   height: 60%;
+  margin-bottom: 50px;
 }
 
 .third_ln {
@@ -563,7 +564,7 @@ input {
   -ms-flex-pack: justify;
       justify-content: space-between;
   width: 8%;
-  margin-left: 3%;
+  margin-left: 15%;
 }
 
 .button_add {
@@ -582,5 +583,72 @@ input {
   -ms-flex-align: center;
       align-items: center;
   margin: 20px 0;
+}
+
+.scroll-wrapper {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.scroll-wrapper table {
+  width: 100%;
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+tr {
+  height: 60px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.table_content:hover {
+  background: #f1f1f3;
+}
+
+.table_menu td {
+  font-weight: bold;
+}
+
+.table_menu td:hover {
+  background: #f1f1f3;
+  cursor: pointer;
+}
+
+.table_menu td:after {
+  display: none;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/arrow_up.svg");
+}
+
+.table_menu td:after:hover {
+  display: inline-block;
+}
+
+.name_content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.personal_ln {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 /*# sourceMappingURL=style.prefixed.css.map */

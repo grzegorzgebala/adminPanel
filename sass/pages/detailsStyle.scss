@@ -1,0 +1,49 @@
+.scroll-wrapper {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.scroll-wrapper table {
+  width: 100%;
+  max-width: 100%;
+}
+
+table {
+	width: 100%;
+	border-spacing: 0;
+}
+
+tr {
+	height: 60px;
+	border-bottom: 1px solid $line-color;
+}
+
+.table_content:hover {
+	background: rgb(241, 241, 243);
+}
+
+.table_menu {
+
+	td {
+		font-weight: bold;
+	}
+
+	td:hover {
+		background: rgb(241, 241, 243);	
+		cursor: pointer; 
+	}
+
+	td:after {
+	    display: none;
+	    content: "";
+	    width: 15px;
+	    height: 15px;
+	    background-image: url("../images/arrow_up.svg");
+	}
+	
+	td:after:hover {
+		display: inline-block;
+	}
+
+}

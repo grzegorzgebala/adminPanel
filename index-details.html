@@ -4,17 +4,17 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:700i" rel="stylesheet">
 		<title>Admin Panel</title>
 	</head>
 	<body>
-		<header>
-			<div class="container">
+		<div class="container">
+			<header>
 				<div class="sidenav">
 				  	<div class="sidenav_header">
 					  	<div class="logo">Just do it</div>
-					  	<div class="menu"></div>
-						<div class="menu"></div>
-						<div class="menu"></div>
+					  	<i class="fas fa-bars"></i>
 					</div>
 					<div class="sidenav_main">
 					  	<ul>
@@ -34,32 +34,176 @@
 						  		<a href="index-personal.html"><img class="icon" src="images/personaldata.svg" alt="personaldata icon">Personal data</a>
 							</li>
 						  	<li>
-						  		<a href="index-payout.htmnl"><img class="icon" src="images/payout.svg" alt="payout icon">Payout</a>
+						  		<a href="index-payout.html"><img class="icon" src="images/payout.svg" alt="payout icon">Payout</a>
 							</li>
 						  	<li>
 						  		<a href="index-postback.html"><img class="icon" src="images/postback.svg" alt="postback icon">Postback</a>
 						  	</li>
 					  	</ul>
-				  </div>
-				  <div class="sidenav_manager">
-				  </div>
+				 	</div>
+					<div class="sidenav_manager">
+						<div class="manager">YOUR MANAGER</div>
+						<div class="navigation_manager">
+							<img class="picture_manager" src="images/manager.jpg" alt="manager">
+							<div class="manager_name">Mikhael E.</div>
+						</div>
+					</div>
 				</div>
 				<div class="topnav">
-				  	<a class="active" href="#home">Home</a>
-				  	<a href="#news">News</a>
-				  	<a href="#contact">Contact</a>
-				  	<a href="#about">About</a>
+				  	<ul class="topnav_list">
+				  		<li class="money">
+					  		<img class="icon-top" src="images/wallet.svg" alt="wallet icon">
+					  		<div class="topnav_money">$1500</div>
+					  		<img class="icon-top" src="images/arrow-down.svg" alt="arrow-down icon">
+					  	</li>
+						<li class="alert">
+					  		<img class="icon-top" src="images/notification.svg" alt="notification icon">
+					  	</li>
+						<li class="person">
+					  		<img class="icon-top" src="images/profile.svg" alt="profile icon">
+					  		<div class="topnav_person">Johny Bravo</div>
+					  	</li>
+						<li class="quit">
+					  		<img class="icon-top" src="images/quit.svg" alt="quit icon">
+					  	</li>
+				  	</ul>
 				</div>
-			</div>
-		</header>
-		<main>
-			<section>General</section>
-			<section>Details</section>
-			<section>Links</section>
-			<section>Banners</section>
-			<section>Personal data</section>
-			<section>Payout</section>
-			<section>Postback</section>
-		</main>
+			</header>
+			<main>
+				<section class="general_content_frame">
+					<div class="general_content">
+						<div class="general_header">
+							<h1>DETAIL STATISTIC</h1>
+						</div>
+						<div class="general_time">
+							<input class="input_left" type="text" name="user-name" value="   16.07.2018">
+							<input class="input_right" type="text" name="user-name" value="   16.08.2018"><img class="calendar_icon" src="images/calendar.svg" alt="calendar icon">
+							<button class="refresh_button"><img class="refresh_icon" src="images/refresh.svg" alt="refresh icon"></button>
+						</div>
+						<div class="scroll_wrapper">
+							<table>
+								<tr class="table_menu">
+									<td>Tracker name</td>
+									<td>Initiated date</td>
+									<td>Visits</td>
+									<td>Unique</td>
+									<td>Signups</td>
+									<td>FTD</td>
+									<td>Depositors</td>
+									<td>Deposits ($)</td>
+									<td>Payout ($)</td>
+									<td>Turnover</td>
+									<td>Deal</td>
+								</tr>
+								<tr class="table_content">
+									<td>aff/sam_test</td>
+									<td>17/08/02 (12:58)</td>
+									<td>232</td>
+									<td>114</td>
+									<td>12</td>
+									<td>6</td>
+									<td>3</td>
+									<td>34,425.00</td>
+									<td>234.00</td>
+									<td>421,342.00</td>
+									<td>cpl (200)</td>
+								</tr>
+								<tr class="table_content">
+									<td>aff/leo_test</td>
+									<td>15/08/02 (12:58)</td>
+									<td>232</td>
+									<td>114</td>
+									<td>12</td>
+									<td>6</td>
+									<td>3</td>
+									<td>29,436.00</td>
+									<td>941.00</td>
+									<td>784,435.00</td>
+									<td>cpl (200)</td>
+								</tr>
+								<tr class="table_content">
+									<td>aff/sam_test</td>
+									<td>17/08/02 (12:58)</td>
+									<td>232</td>
+									<td>114</td>
+									<td>12</td>
+									<td>6</td>
+									<td>3</td>
+									<td>34,425.00</td>
+									<td>234.00</td>
+									<td>421,342.00</td>
+									<td>cpl (200)</td>
+								</tr>
+								<tr class="table_content">
+									<td>aff/leo_test</td>
+									<td>15/08/02 (12:58)</td>
+									<td>232</td>
+									<td>114</td>
+									<td>12</td>
+									<td>6</td>
+									<td>3</td>
+									<td>29,436.00</td>
+									<td>941.00</td>
+									<td>784,435.00</td>
+									<td>cpl (200)</td>
+								</tr>
+								<tr class="table_content">
+									<td>aff/sam_test</td>
+									<td>17/08/02 (12:58)</td>
+									<td>232</td>
+									<td>114</td>
+									<td>12</td>
+									<td>6</td>
+									<td>3</td>
+									<td>34,425.00</td>
+									<td>234.00</td>
+									<td>421,342.00</td>
+									<td>cpl (200)</td>
+								</tr>
+								<tr class="table_content">
+									<td>aff/leo_test</td>
+									<td>15/08/02 (12:58)</td>
+									<td>232</td>
+									<td>114</td>
+									<td>12</td>
+									<td>6</td>
+									<td>3</td>
+									<td>29,436.00</td>
+									<td>941.00</td>
+									<td>784,435.00</td>
+									<td>cpl (200)</td>
+								</tr>
+								<tr class="table_content">
+									<td>aff/sam_test</td>
+									<td>17/08/02 (12:58)</td>
+									<td>232</td>
+									<td>114</td>
+									<td>12</td>
+									<td>6</td>
+									<td>3</td>
+									<td>34,425.00</td>
+									<td>234.00</td>
+									<td>421,342.00</td>
+									<td>cpl (200)</td>
+								</tr>
+								<tr class="table_content">
+									<td>aff/leo_test</td>
+									<td>15/08/02 (12:58)</td>
+									<td>232</td>
+									<td>114</td>
+									<td>12</td>
+									<td>6</td>
+									<td>3</td>
+									<td>29,436.00</td>
+									<td>941.00</td>
+									<td>784,435.00</td>
+									<td>cpl (200)</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
 	</body>	
 </html>		

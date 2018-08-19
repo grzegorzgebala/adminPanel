@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "detailsStyle.css",
+	"sources": [
+		"../../sass/pages/detailsStyle.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,eAAe,CAAC;EACd,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,IAAI;CACjB;;AAED,AAAA,eAAe,CAAC,KAAK,CAAC;EACpB,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;CAChB;;AAED,AAAA,KAAK,CAAC;EACL,KAAK,EAAE,IAAI;CACX;;AAED,AAAA,EAAE,CAAC;EACF,MAAM,EAAE,IAAI;CACZ"
+}

@@ -1,0 +1,20 @@
+.scroll-wrapper {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.scroll-wrapper table {
+  width: 100%;
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  height: 60px;
+}
+
+/*# sourceMappingURL=detailsStyle.css.map */
