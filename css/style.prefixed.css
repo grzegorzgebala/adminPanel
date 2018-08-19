@@ -631,6 +631,13 @@ tr {
   display: inline-block;
 }
 
+.table_list {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
 .name_content {
   display: -ms-flexbox;
   display: flex;
@@ -640,6 +647,8 @@ tr {
       align-items: center;
   -ms-flex-direction: column;
       flex-direction: column;
+  padding: 40px 0;
+  border-bottom: 1px solid #e3e3e3;
 }
 
 .personal_ln {
@@ -650,5 +659,20 @@ tr {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
+  padding-bottom: 14px;
+}
+
+.personal_description {
+  width: 20%;
+}
+
+.personal_input_position {
+  width: 20%;
+  height: 40px;
+}
+
+.personal_input {
+  height: 40px;
+  width: 300px;
 }
 /*# sourceMappingURL=style.prefixed.css.map */

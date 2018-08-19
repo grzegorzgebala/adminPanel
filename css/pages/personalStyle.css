@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 40px;
 }
 
 .personal_ln {
@@ -10,6 +11,21 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
+}
+
+.personal_description {
+  width: 20%;
+}
+
+.personal_input_position {
+  width: 20%;
+  height: 40px;
+}
+
+.personal_input {
+  height: 40px;
+  width: 300px;
 }
 
 /*# sourceMappingURL=personalStyle.css.map */
