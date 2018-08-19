@@ -377,7 +377,6 @@
 .general_time {
   background-color: #fff;
   width: 100%;
-  border-top: 1px solid #e3e3e3;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -394,6 +393,9 @@
 
 .general_header {
   border-bottom: 1px solid #e3e3e3;
+}
+
+.general_header h1 {
   margin-left: 1%;
 }
 
@@ -510,13 +512,18 @@ input {
 }
 
 .links_list {
-  width: 80%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-direction: column;
       flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.links_list :hover {
+  background: #f1f1f3;
 }
 
 .line {
@@ -524,7 +531,56 @@ input {
   display: flex;
   -ms-flex-direction: row;
       flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 60px;
+  border-bottom: 1px solid #e3e3e3;
+  width: 80%;
+}
+
+.link {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
   -ms-flex-pack: justify;
       justify-content: space-between;
+  width: 50%;
+}
+
+.link div {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.link_icons {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 8%;
+  margin-left: 3%;
+}
+
+.button_add {
+  width: 130px;
+  height: 40px;
+  background-color: #f58220;
+  color: #fff;
+  font-size: 13px;
+}
+
+.button {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  margin: 20px 0;
 }
 /*# sourceMappingURL=style.prefixed.css.map */

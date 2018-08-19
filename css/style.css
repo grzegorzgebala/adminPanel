@@ -346,7 +346,6 @@
 .general_time {
   background-color: #fff;
   width: 100%;
-  border-top: 1px solid #e3e3e3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -359,6 +358,9 @@
 
 .general_header {
   border-bottom: 1px solid #e3e3e3;
+}
+
+.general_header h1 {
   margin-left: 1%;
 }
 
@@ -455,16 +457,59 @@ input {
 }
 
 .links_list {
-  width: 80%;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
+}
+
+.links_list :hover {
+  background: #f1f1f3;
 }
 
 .line {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid #e3e3e3;
+  width: 80%;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  width: 50%;
+}
+
+.link div {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.link_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 8%;
+  margin-left: 3%;
+}
+
+.button_add {
+  width: 130px;
+  height: 40px;
+  background-color: #f58220;
+  color: #fff;
+  font-size: 13px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
