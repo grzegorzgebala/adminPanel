@@ -35,11 +35,10 @@ tr {
 	}
 
 	td:after {
-	    display: none;
 	    content: "";
 	    width: 15px;
 	    height: 15px;
-	    background-image: url("../images/arrow_up.svg");
+	    background-image: url("../images/arrow-up.svg");
 	}
 	
 	td:after:hover {
