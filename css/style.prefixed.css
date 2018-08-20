@@ -675,4 +675,56 @@ tr {
   height: 40px;
   width: 300px;
 }
+
+.postback_description {
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.postback_textarea {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.postback_signup_container textarea {
+  width: 500px;
+  height: 180px;
+}
+
+.postback_deposit_container textarea {
+  width: 500px;
+  height: 180px;
+}
+
+.postback_text {
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+
+.postback_text_select {
+  margin: 12% 0;
+  font-weight: bold;
+}
+
+.postback_select select {
+  width: 300px;
+  height: 40px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #ffffff;
+  border: 1px solid #e3e3e3;
+  font-size: 14px;
+  display: block;
+  border-radius: 0;
+  margin-bottom: 40px;
+}
 /*# sourceMappingURL=style.prefixed.css.map */

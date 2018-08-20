@@ -72,8 +72,45 @@
 			<main>
 				<section class="general_content_frame">
 					<div class="general_content">
-						<div class="genaral_header">
-							<h1>GENERAL STATISTIC</h1>
+						<div class="general_header">
+							<h1>NEW POSTBACK</h1>
+						</div>
+						<div class="postback_description">You can insert some parameters in this postback:</div>
+						<div class="postback_textarea">
+							<div class="postback_signup_container">
+								<div class="postback_text">Signup</div>
+								<textarea name="Signup"></textarea>
+							</div>
+							<div class="postback_deposit_container">
+								<div class="postback_text">Deposit</div>
+								<textarea name="Deposit"></textarea>
+							</div>
+						</div>
+						<div class="postback_textarea">
+							<div class="postback_select">
+								<div class="postback_text_select">Postback type:</div>
+								<select name="type">
+									<option value="red">S2S (http:/)</option>
+									<option value="green">S3S (http:/)</option>
+									<option value="blue">S4S (http:/)</option>
+								</select>
+							</div>
+							<div class="postback_select">
+								<div class="postback_text_select">To countries:</div>
+								<select name="country">
+									<option value="red">Select countries</option>
+									<option value="green">Country 1</option>
+									<option value="blue">Country 2</option>
+								</select>
+							</div>
+							<div class="postback_select">
+								<div class="postback_text_select">Sending options:</div>
+								<select name="options">
+									<option value="red">Select</option>
+									<option value="green">Select1</option>
+									<option value="blue">Select2</option>
+								</select>
+							</div>
 						</div>
 					</div>
 				</section>
