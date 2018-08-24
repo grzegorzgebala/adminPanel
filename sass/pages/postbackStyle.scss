@@ -45,4 +45,71 @@ select {
    display: block;
    border-radius: 0;
    margin-bottom: 40px;
+   padding-left: 10px;
 }
+
+.postback_choice {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 250px;
+}
+
+.postback_checkbox_area {
+	width: 50%;
+	border-top: 1px solid $line-color;
+	border-bottom: 1px solid $line-color;
+	height: 100%;
+	overflow: scroll;
+
+	.postback_title {
+		margin-left: 20px;
+		font-weight: bold;
+	}
+
+	.postback_not {
+		color: red;
+	}
+
+	input {
+	display: block;
+	}
+
+	p {
+		display: block;
+	}
+}
+
+.postback_scroll_area {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid $line-color;
+	border-bottom: 1px solid $line-color;
+	border-left: 1px solid $line-color;
+	height: 100%;
+	
+}
+
+.button_pixel {
+	margin: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.postback_checkbox {
+	display: flex;
+    align-items: center;
+    margin-top: 13px;
+
+    input {
+    	margin-left: 30px;
+    	height: 30px;
+    	width: 30px;
+    }
+
+    p {
+    	margin: 0;
+    }
+}    
