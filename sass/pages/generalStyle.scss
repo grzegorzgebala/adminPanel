@@ -430,3 +430,61 @@ input {
 	align-items: center;
 	margin: 20px 0;
 }
+
+@media (max-width: 767px){
+    /* For tablets: */
+   .sidenav {
+		height: 60px;
+   }
+
+   .sidenav_main {
+   		display: none;
+   }
+
+   .sidenav_manager {
+   		display: none;
+   }
+
+   .general_content_frame {
+	   	margin-left: 0;
+	   	width: 100%;
+   }
+
+   .topnav .money {
+   		display: none;
+   }
+
+   .topnav .alert {
+   		display: none;
+   }
+
+   .topnav .person {
+   		display: none;
+   }
+
+   .scroll_wrapper {
+	  display: block;
+	  width: 100%;
+	  overflow-x: auto;
+	}
+
+	.scroll_wrapper table {
+	  width: 100%;
+	  max-width: 100%;
+	}
+
+	.postback_textarea {
+		flex-direction: column;
+	}
+
+	.postback_choice {
+		flex-direction: column;
+		width: 100%;
+	}
+}
+
+
+
+@media (min-width: 768px) {
+    /* For desktop: */
+}
