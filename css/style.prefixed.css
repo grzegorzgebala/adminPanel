@@ -669,6 +669,43 @@ tr {
   width: 40%;
 }
 
+.pagination {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 15px;
+}
+
+.pagination_arrow {
+  width: 20px;
+  height: 20px;
+}
+
+.pagination_number {
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.pagination_number p {
+  margin: 0 auto;
+}
+
+.pagination_number:hover {
+  background-color: #f1f1f3;
+}
+
 .name_content {
   display: -ms-flexbox;
   display: flex;
@@ -800,14 +837,16 @@ select {
   width: 50%;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: start;
+      align-items: flex-start;
   border-top: 1px solid #e3e3e3;
   border-bottom: 1px solid #e3e3e3;
   border-left: 1px solid #e3e3e3;
   height: 100%;
+  -ms-flex-direction: column;
+      flex-direction: column;
 }
 
 .button_pixel {
@@ -834,5 +873,64 @@ select {
 
 .postback_checkbox p {
   margin: 0;
+}
+
+.postback_title_range {
+  display: block;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.postback_range {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.postback_range_numbers {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 100%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  height: 25px;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 18px 0;
+  width: 95%;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 95%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: #f58220;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid #f58220;
+  height: 0px;
+  width: 0px;
+  background: #fff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=style.prefixed.css.map */

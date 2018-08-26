@@ -83,13 +83,13 @@ select {
 .postback_scroll_area {
 	width: 50%;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: flex-start;
+	align-items: flex-start;
 	border-top: 1px solid $line-color;
 	border-bottom: 1px solid $line-color;
 	border-left: 1px solid $line-color;
 	height: 100%;
-	
+	flex-direction: column;
 }
 
 .button_pixel {
@@ -113,3 +113,54 @@ select {
     	margin: 0;
     }
 }    
+
+.postback_title_range {
+	display: block;
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+.postback_range {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.postback_range_numbers {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-content: center;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	height: 25px;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 18px 0;
+  width: 95%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 95%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: rgb(245, 130, 32);
+}
+
+input[type=range]::-webkit-slider-thumb {
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 40px solid rgb(245, 130, 32);
+  	height: 0px;
+  	width: 0px;
+  	background: #fff;
+  	cursor: pointer;
+  	-webkit-appearance: none;
+  	margin-top: 10px;
+}
