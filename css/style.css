@@ -277,7 +277,6 @@ body {
 }
 
 .icon {
-  display: none;
   height: 14px;
   width: 14px;
   position: relative;
@@ -416,7 +415,6 @@ input {
   flex-direction: row;
   justify-content: center;
   margin-top: 4%;
-  height: 30px;
 }
 
 .visit {
@@ -441,7 +439,6 @@ input {
   flex-direction: row;
   justify-content: center;
   margin-top: 4%;
-  height: 30px;
 }
 
 .ftd {
@@ -696,7 +693,6 @@ tr {
 }
 
 .personal_input_position {
-  width: 20%;
   height: 40px;
 }
 
